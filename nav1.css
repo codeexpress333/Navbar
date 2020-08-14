@@ -1,0 +1,40 @@
+nav {
+    height: 10vh;
+    width: 80%;
+    background: #ffc107;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    margin: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #211a01;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #211a01;
+    line-height: 1.8;
+}
+
+nav ul li button {
+    margin: 0 10px;
+    padding: 5px 20px;
+    background: #ffc107;
+    border: 2px solid #211a01;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 5px #211a01);
+}
+
